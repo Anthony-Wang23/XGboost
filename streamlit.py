@@ -5,7 +5,7 @@ from xgboost import XGBClassifier
 import streamlit as st
 
 # 加载 XGBoost 模型
-model_path = 'D:/anaconda3/envs/py312/xgboost_model.bin'  # XGBoost 模型的路径
+model_path = "xgboost_model.bin"  # XGBoost 模型的路径
 
 # 加载模型
 model = XGBClassifier()
