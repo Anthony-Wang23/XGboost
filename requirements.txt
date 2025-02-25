@@ -4,3 +4,4 @@ streamlit==1.41.1
 shap==0.46.0
 shapely==2.0.7
 matplotlib==3.10.0
+ipython==8.30.0
