@@ -86,7 +86,7 @@ if st.button("预测"):
         )
 
         # 保存 SHAP 力图
-        shap.save_html("hap_force_plot.html", shap.plots.force(explanation, show=False))
+        shap.save_html("shap_force_plot.html", shap.plots.force(explanation, show=False))
 
         # 显示 SHAP 力图和解释文字
         st.subheader("模型预测的力图")
