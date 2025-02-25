@@ -3,3 +3,5 @@ xgboost ==2.1.4
 streamlit==1.41.1
 shap==0.46.0
 shapely==2.0.7
+matplotlib-base==3.10.0
+matplotlib-inline==0.1.6
